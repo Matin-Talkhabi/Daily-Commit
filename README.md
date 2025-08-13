@@ -65,8 +65,5 @@ jobs:
 * [GitHub Actions Documentation](https://docs.github.com/en/actions)
 * [Cron Syntax](https://crontab.guru/)
 
----
-
-```
 
 
