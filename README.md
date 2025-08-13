@@ -1,5 +1,4 @@
 
-````markdown
 # 🗓 Daily Commit - GitHub Actions
 
 This repository contains a simple **GitHub Actions workflow** that automatically makes a commit every day.  
@@ -19,7 +18,7 @@ Steps performed:
 ---
 
 ## 📄 Workflow File (`.github/workflows/daily-commit.yml`)
-```yaml
+```
 name: Daily Commit
 
 on:
@@ -47,7 +46,7 @@ jobs:
           git add .
           git commit -m "daily commit - $(date)" || echo "nothing to commit"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
-````
+```
 
 ---
 
